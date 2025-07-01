@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Oxanium:wght@200..800&family=Playwrite+VN:wght@100..400&family=Poppins:wght@800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: var(--background-color);
+    font-family: Manrope, sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+
+.card{
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--card-color);
+    border-radius: 10px;
+    max-width: 450px;
+   
+}
+
+.card .advice-id{
+    color: var(--button-color);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    
+}
+
+.card .advice-description{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 23px;
+    padding: 23px;
+    
+}
+
+.card picture img{
+    width: 100%;
+}
+
+
+.card .botao {
+    
+    background-color: var(--button-color);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(85%);
+
+}
+
+
+.card .botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+    
+}
+
+
+
+       
